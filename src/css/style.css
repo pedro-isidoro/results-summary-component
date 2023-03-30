@@ -1,0 +1,190 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+span{
+    color: var(--Light-lavender);
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    height: 51rem;
+    width: 74.4rem;
+    gap: 1rem;
+
+    border-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0.3rem 0.8rem 2rem;
+}
+
+/* RESULT */
+.container .result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.container .result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+    background: linear-gradient(180deg, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
+    color: var(--Pale-blue);
+    border-radius: 3rem;
+    padding: 2rem 4rem ;
+}
+
+.result h3{
+    font-size: 2.3rem;
+}
+
+.result .value{
+    padding: 3.8rem 5.8rem;
+    border-radius: 100%;
+    background: linear-gradient(180deg, var(--Violet-blue-circle), var(--Violet-blue-circle),var(--Persian-blue-circle));
+}
+
+.result .value h1{
+    font-size: 7rem;
+}
+
+.result .value span{
+    font-size: 1.8rem;
+}
+
+.result .description{
+    margin-bottom: 1rem;
+}
+
+.result .description h2{
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+.result .description p{
+    padding: 1rem;
+}
+
+.result .description span{
+    font-size: 1.8rem;
+}
+
+/* ELEMENTS */
+.elements{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    padding: 3.6rem 3rem 0 2.9rem;
+}
+
+.elements h1{
+    font-size: 2.5rem;
+    margin-bottom: 3.4rem;
+    left: 0%;
+}
+
+.elements .element{
+    margin-bottom: 4rem;
+}
+
+.elements .element li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 3rem 1rem 2rem;
+    margin-bottom: 2.9rem;
+    border-radius: 1rem;
+}
+
+.elements .element li:last-child{
+    margin-bottom: 1rem;
+}
+
+.elements .element li p{
+    font-size: 1.8rem;
+}
+
+.elements .element li .element-1, .elements .element li .element-2, .elements .element li .element-3, .elements .element li .element-4{
+    display: flex;
+}
+
+.elements .element li img{
+    margin-right: 1.2rem;
+}
+
+.elements .element .reaction{
+    background-color: var(--Light-red-background);
+    border: solid 0.1rem var(--Light-red);
+}
+
+.elements .element .memory{
+    background-color: var(--Orangey-yellow-background);
+    border: solid 0.1rem var(--Orangey-yellow);
+}
+
+.elements .element .verbal{
+    background-color: var(--Green-teal-background);
+    border: solid 0.1rem var(--Green-teal);
+}
+
+.elements .element .visual{
+    background-color: var(--Cobalt-blue-background);
+    border: solid 0.1rem var(--Cobalt-blue);
+}
+
+.elements .element li .element-1 p{
+    color: var(--Light-red);
+    font-weight: 700;
+}
+
+.elements .element li .element-2 p{
+    color: var(--Orangey-yellow);
+    font-weight: 700;
+}
+
+.elements .element li .element-3 p{
+    color: var(--Green-teal);
+    font-weight: 700;
+}
+
+.elements .element li .element-4 p{
+    color: var(--Cobalt-blue);
+    font-weight: 700;
+}
+
+.elements .element li .points{
+    font-weight: 800;
+}
+
+.elements .element li .points p{
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+}
+
+.elements .btn{
+    text-align: center;
+    font-size: 1.8rem;
+    width: 29rem;
+    /* height: 5.6rem; */
+    padding: 1.6rem 0;
+
+    border: none;
+    border-radius: 3rem;
+    color: var(--White);
+    background-color: var(--Dark-gray-blue);
+}
+
+.elements .btn:hover{
+    cursor: pointer;
+    background: linear-gradient(180deg, var(--Light-slate-blue-background), var(--Light-royal-blue-background), var(--Light-royal-blue-background));
+}
