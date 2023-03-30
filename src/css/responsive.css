@@ -147,7 +147,6 @@
 
     .elements .btn{
         width: 36rem;
-        padding: 1.8rem 0;
     }
 }
 
@@ -158,50 +157,65 @@
 
     .elements .btn{
         width: 34rem;
-        padding: 1.8rem 0;
     }
 }
 
 @media(max-width: 424px){    
     .container{
-        width: 41.4rem;
+        width: 40.4rem;
     }
 
     .elements .btn{
-        width: 32rem;
+        width: 31rem;
         padding: 1.6rem 0;
+    }
+}
+
+@media(max-width: 394px){    
+    .elements .btn{
+        width: 28rem;
+        padding: 1.4rem 0;
     }
 }
 
 @media(max-width: 376px){    
     .container{
-        width: 37.4rem;
+        width: 35.4rem;
     }
 
     .elements .btn{
-        width: 30rem;
-        padding: 1.4rem 0;
+        width: 28rem;
+    }
+}
+
+@media(max-width: 361px){    
+    .container{
+        width: 34.4rem;
+    }
+
+    .elements .btn{
+        width: 27rem;
     }
 }
 
 @media(max-width: 346px){    
     .container{
-        width: 35.4rem;
+        width: 34.4rem;
     }
 
     .elements .btn{
-        width: 27rem;
+        width: 25rem;
         padding: 1.4rem 0;
     }
 }
 
 @media(max-width: 321px){    
     .container{
-        width: 32.4rem;
+        width: 30.4rem;
     }
 
     .elements .btn{
-        width: 24rem;
+        width: 22rem;
         padding: 1.2rem 0;
     }
 }
